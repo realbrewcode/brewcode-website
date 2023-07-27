@@ -1,0 +1,1067 @@
+html,
+boby {
+  font-family: "Work Sans";
+  overflow-x: hidden;
+}
+
+#ubercore-banner {
+  padding: 12px 0px 1px 0px;
+  background-color: #0074e0;
+  margin-bottom: 55px;
+}
+
+
+
+/* header */
+
+/* navbar */
+#ubercore-banner {
+  font-family: "Work Sans";
+}
+.navbar{
+  background: #fff;
+}
+.logo h2 {
+  color: #0074e0;
+  margin-bottom: 0;
+  /* margin-left: 50px;
+  width: 210px; */
+  font-size: 26px;
+}
+.logo a {
+ 
+  text-decoration: none;
+}
+.menu a {
+  color: #0074e0;
+  font-weight: 500;
+  font-family: "Work Sans";
+}
+.menu a:hover {
+  color: #2c4470;
+}
+.menu a:focus{
+  color: #2c4470;
+}
+.start-project {
+  width: 180px;
+  background-color:#0074e0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: #fff;
+  margin: auto;
+  padding: 10px;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+#about-us-header li a{
+  text-align: center;
+}
+.dropdown-menu a {
+  color: #2c4470;
+ 
+  
+}
+.dropdown-menu a:hover {
+  color: #0074e0;
+}
+.nav-link:focus {
+  color: #fff;
+}
+ 
+.dropdown-menu a {
+  text-decoration: none;
+}
+.dropdown-menu li {
+  text-align: center;
+}
+.fas {
+  font-size: 13px;
+}
+
+#services {
+  width: 671px;
+  height: 304px;
+  transform: translate(-50%, 3%);
+  padding: 0;
+ 
+  border: solid 1px #d8e0ed;
+}
+#start-project {
+  background-color: #f7f9fe;
+  height: 302px;
+}
+#start-project img {
+  width: 200px;
+  height: 220px;
+}
+.project-rectangle {
+  width: 146px;
+  height: 36px;
+  flex-grow: 0;
+  background-color: #0074e0;
+  border-radius: 5px;
+  margin: 20px 9.7px 0 20px;
+  border: solid 2px #0074e0;
+}
+.project {
+  width: 140px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding-top: 5px;
+}
+.fullstack-development {
+  display: flex;
+ 
+
+}
+.fullstack-development a {
+  font-size: 13px;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c4470;
+}
+#full-stack {
+  border: solid 1px rgba(44, 68, 112, 0.1);
+  border-left: none;
+  border-top: none;
+  align-items: center;
+  padding: 21px 32px 10px 20px;
+  margin-left: 20px;
+  
+ 
+ 
+}
+#full-stack img {
+  padding:0 9px 15px 10px ;
+}
+
+#product-engineering {
+  border: solid 1px rgba(44, 68, 112, 0.1);
+  border-left: none;
+  border-top: none;
+  margin-left: 20px;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+#product-engineering img {
+  padding:10px 9px 15px 10px ;
+}
+#product-engineering a {
+  padding-top: 10px;
+  width: 50px;
+}
+#cyber-security {
+  border: solid 1px rgba(44, 68, 112, 0.1);
+  border-left: none;
+  border-top: none;
+  margin-left: 20px;
+  border-bottom: none;
+  align-items: center;
+  border-bottom: solid 1px rgba(44, 68, 112, 0.1);
+  padding: 10px 20px 9px 20px;
+  
+}
+#cyber-security img {
+  padding:10px 9px 15px 10px ;
+}
+#cyber-security a {
+  padding-top: 10px;
+  width: 50px;
+  
+}
+.cyber-security-hide{
+  visibility: hidden;
+}
+.hide-cyber{
+  border-right: solid 1px rgba(44, 68, 112, 0.1);
+  height: 40px;
+}
+.ui-hidden{
+ 
+  visibility: hidden;
+}
+.data-hidden{
+  border-bottom: solid 1px rgba(44, 68, 112, 0.1);
+  transform: translateY(-1px);
+  width: 200px;
+  
+}
+#web-development {
+  border-bottom: solid 1px rgba(44, 68, 112, 0.1);
+  width: 200px;
+  border-left: none;
+  border-top: none;
+  
+  align-items: center;
+  padding: 16px 32px 0 20px;
+}
+#web-development a{
+  width: 50px;
+ 
+}
+#web-development img {
+  padding:0 9px 30px 10px ;
+}
+
+#responsive-ui{
+  border-bottom: solid 1px rgba(44, 68, 112, 0.1);
+  width: 200px;
+  border-left: none;
+  border-top: none;
+ 
+  padding: 10px 20px 14.5px 20px;
+}
+#responsive-ui img {
+ 
+ 
+  width: 55px;
+  height: 50px;
+  
+  padding-right: 9px; 
+}
+#responsive-ui a {
+  padding-top: 8px;
+  
+}
+#dropdownMenuLink :hover::after {
+  text-align: center;
+}
+#front-end {
+  border: solid 1px #d8e0ed;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "Work Sans";
+}
+#front-end a {
+  font-size: 16px;
+  
+}
+.aboutus a {
+  font-size: 16px;
+}
+.web-tech {
+  line-height: 1.85;
+  font-size: 13px;
+  text-align: left;
+  color: var(--primary-heading);
+}
+
+/* technology */
+
+#technologies-banner {
+  background: #021b49;
+  background-image: url(/assets/images/technologies-banner.svg);
+  background-position: center center;
+  width: 100%;
+  height:557px;
+}
+.technologies-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Work Sans";
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.engineering-services {
+  background-image: url(/assets/images/technology.svg);
+   width: 844px;
+  height: 484px; 
+  text-align: center;
+  margin: auto; 
+  
+}
+.technologies-content {
+  width: 526px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Work Sans";
+  line-height: 1.33;
+  text-align: center;
+  color: #2c4470;
+  position: relative;
+  padding-top: 38px;
+  padding-bottom: 90px;
+  margin: auto;
+}
+.line {
+  width: 1417px;
+  height: 1px;
+  background-color: rgba(44, 68, 112, 0.3);
+  text-align: center;
+  margin: auto;
+}
+
+/* front end apps */
+
+.apps {
+  margin-top: 400px;
+}
+
+.apps-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Work Sans";
+  line-height: 1.26;
+  text-align: left;
+  color: #142f63;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  
+}
+.apps-content {
+  width: 508px;
+  height: 259px;
+  font-size: 22px;
+  font-family: "Work Sans";
+  line-height: 1.45;
+  text-align: left;
+  color: #142f63;
+  font-weight: 0px;
+}
+.front-end {
+  margin-right: 0px;
+  
+}
+.front-end img{
+  width: 580px;
+  margin-top: 30px;
+}
+
+
+/* backend apps */
+
+.bg {
+  background: #2f456b;
+}
+.backend {
+  padding-left: 0px;
+}
+.frameworks {
+  margin-top: 60px;
+}
+.nodejs {
+  margin-left: 0px;
+  /* padding-left: 150px; */
+  margin-top: 20px;
+  text-align: center;
+}
+.js{
+  margin-right: 45px;
+}
+.expressjs{
+  width: 180px;
+  height: 49.2px;
+}
+.mongodb{
+  width: 212px;
+  height: 57px;
+  margin-right: 45px;
+  margin-top: 60px;
+}
+.sql{
+  width: 172px;
+  height: 58px;
+  margin-top: 60px;
+}
+.backend-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Work Sans";
+  line-height: 1.26;
+  text-align: left;
+  color: #142f63;
+  margin-top: 72px;
+}
+.backend-content {
+  width: 577px;
+  height: 259px;
+  font-size: 22px;
+  font-family: "Work Sans";
+  font-weight: normal;
+  line-height: 1.45;
+  text-align: left;
+  color: #142f63;
+}
+
+/* devops */
+
+.devops-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Work Sans";
+  line-height: 1.26;
+  text-align: left;
+  color: #142f63;
+  margin-top: 80px;
+}
+.devops-content {
+  width: 577px;
+  height: 259px;
+  font-size: 22px;
+  font-family: "Work Sans";
+  font-weight: normal;
+  line-height: 1.45;
+  text-align: left;
+  color: #142f63;
+}
+.devop{
+  width: 100px;
+  margin-top: 100px;
+}
+.devop img {
+  width: 550px;
+}
+
+
+/* lets-collaborate */
+
+.lets-collaborate-container {
+  background-color: #112548;
+  height: 374px;
+  flex-grow: 0;
+  margin: 40px 0 64px 0;
+  padding: 59px 181px 51px 170px;
+}
+.lets-collaborate {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.input-type {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.input-field {
+  border-radius: 6px;
+  color: #fff;
+  background-color: #2f456b;
+  margin: 0 28px 0 0;
+  padding: 11px 20px 11px 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  width: 337px;
+  height: 48px;
+}
+::placeholder {
+  width: 117px;
+  height: 26px;
+  font-size: 16px;
+  font-family: "Work Sans";
+  line-height: 1.63;
+  text-align: left;
+  color: #c8d2e3;
+  font-family: "Work Sans";
+}
+.input-type .btn-submit {
+  height: 40px;
+  width: 130px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  color: #fff;
+}
+.or {
+  margin-left: 50%;
+  margin-top: 34px;
+  text-align: center;
+  width: 23px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #c8d2e3;
+}
+.ubercore {
+  width: 230px;
+  height: 48px;
+  margin-left: 43%;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 2.18;
+  text-align: center;
+  color: #0074e0;
+  text-decoration: none;
+}
+
+/* footer */
+
+.footer h6 {
+  font-size: 16px;
+  color: #2c4470;
+  margin-bottom: 27.4px;
+}
+.footer a {
+  font-size: 16px;
+  color: #2c4470;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #0074e0;
+}
+.footer {
+  font-family: "Work Sans";
+}
+.footer-border{
+  width: 1400px;
+  height: 1px;
+  flex-grow: 0;
+  margin: 40.5px 1px 0px 0;
+  background-color: #cad5e0;
+}
+.company-name p {
+  margin-left: 80px;
+  font-family: "Work Sans";
+  font-size:30px;
+  font-weight:500;
+  width: 250px;
+  color: #0074e0;
+}
+.home{
+  margin-left: 100px;
+  
+}
+.home li{
+  width: 200px;
+}
+.about-us {
+  margin-top: 32px;
+} 
+.services-footer li {
+  width: 300px;
+}
+.services-footer {
+  margin-left: 50px;
+}
+.tech-stack {
+  
+  margin-left: 90px;
+  width: 150px;
+}
+#stack{
+  width: 100%;
+  max-width: 150px;
+}
+.how-we-work {
+  width: 200px;
+  margin-left: 90px;
+ 
+}
+#work{
+  width: 100%;
+  max-width: 200px;
+}
+.social-media{
+  margin-left: 50px;
+}
+.social-media h6{
+  width: 100px;
+}
+.social-img {
+  display: flex;
+  flex-direction: row;
+
+}
+.facebook {
+  margin-right: 10px;
+}
+.instagram {
+  margin-right: 10px;
+}
+.twitter{
+  margin-right: 10px;
+}
+.all-rights{
+  margin-left: 50px;
+}
+.linkedin{
+  padding-top: 3px;
+}
+.rights-reserved p {
+  margin: 20.5px 46px 0 0px;
+  font-size: 16px;
+  text-align: left;
+  color: #2c4470;
+}
+.rights-reserved {
+  margin-top: 22px;
+  margin-bottom: 34px;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+ 
+ /* header */
+
+ header {
+  display: flex;
+}
+.navbar-toggler-icon i {
+  color: #0074e0;
+  font-size: 25px;
+}
+
+.navbar-toggler {
+  margin-left: 10px;
+}
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  flex-direction: column;
+ 
+}
+ .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.logo {
+  display: flex;
+}
+.logo p{
+  margin-left: 0;
+  font-size: 22px;
+  padding-left: 0;
+  margin-right: 100px;
+}
+.nav a {
+  display: block;
+  height: 10px;
+  text-align: center;
+}
+.menu {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.nav-link-contact {
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  /* margin-right: 29px; */
+}
+ #home {
+  padding: 0;
+}
+
+/* about  */
+
+.dropdown {
+  margin-top: 0;
+  text-align: center;
+}
+#dropdownMenuLink {
+  margin: 0;
+}
+#about-us-header {
+  transform: translate(-45%, 10%);
+}
+
+/* service */
+
+#start-project {
+  display: none;
+}
+
+#services {
+  width: auto;
+  height: auto;
+  transform: none;
+}
+/* .nav-services {
+  width: 280px;
+  
+} */
+#full-stack{
+  margin: auto;
+}
+#product-engineering{
+  margin: auto;
+}
+#cyber-security {
+  border-bottom:solid 1px rgba(44, 68, 112, 0.1) ;
+  margin: auto;
+  
+}
+#cyber-security p{
+  text-align: left;
+}
+#web p{
+  text-align: left;
+}
+.hide-cyber{
+  display: none;
+}
+#web{
+  margin: auto;
+}
+.data-hidden{
+  display: none;
+}
+#responsive-ui {
+  border-bottom:none ;
+}
+
+
+/* technology */
+
+#front-end {
+  transform: translate(-20%, 4%);
+}
+
+/* nav-rectangle */
+
+.rectangle {
+  display: none;
+}
+.rectangle-30 {
+  display: none;
+}
+ 
+/* technology banner */
+
+  #technologies-banner {
+    width: 100vw;
+    height: 45vh;
+    /* width: auto;
+    height: auto; */
+  }
+  .technologies-heading {
+    font-size: 23px;
+    padding-top: 50px;
+  }
+  .engineering-services {
+    width: 300px;
+    height: 250px;
+    margin-left: 45px;
+   
+  }
+  .technologies-content {
+    width: 90vw;
+    height: 10px;
+    font-size: 12px;
+    position: relative;
+    margin-left: 30px;
+  }
+  .line {
+    width: 317.5px;
+    height: 1px;
+    margin: 49.5px 10px 0px 31px;
+  }
+
+/* front end */
+
+  .apps {
+    margin-top: 280px;
+  }
+  .apps-heading {
+    font-size: 30px;
+    margin-left: 10px;
+    width: 80vw;
+  }
+  .apps-content {
+    width: 85vw;
+    height: 0;
+    font-size: 13px;
+    margin: 0px 10px 120px 10px;
+  }
+  .front-end {
+    margin-left: 0px;
+    padding-left: 0rem;
+    width: auto;
+  }
+  .front-end img{
+    margin-top: 70px;
+    width: 350px;
+  }
+ 
+
+/* backend apps */
+
+  .back-end {
+    margin-top: 80px;
+    background-color: #0074e0;
+    background-size: cover;
+   
+  }
+  .backend-heading {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .backend-content p {
+    width: 80vw;
+    /* height: 20vh; */
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 0;
+  }
+  .frameworks {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .nodejs {
+    display: flex;
+    padding-left: 0px;
+  }
+  .js{
+    margin-right: 15px;
+    width: 90%;
+  }
+  .expressjs{
+    width: 170px;
+    height: 39.2px;
+  }
+  .mongodb{
+    width: 130px;
+    height: 47px;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  .sql{
+    width: 162px;
+    height: 48px;
+    margin-top: 30px;
+  }
+
+/* devops */
+
+  .devops-heading {
+    margin-left: 20px;
+   
+  }
+  .devops-content {
+    width: 85vw;
+    height: auto;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+  .devop{
+    width: auto;
+   
+  }
+  .devop img {
+    width: 200px;
+  }
+  .docker{
+    width: 140px;
+    height: 20.2px;
+  }
+  .jenkins{
+    width: 140px;
+    height: 31.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .kubernets{
+    width: 140px;
+    height: 24.6px;
+  }
+  .aws{
+    width: 47px;
+    height: 24px;
+  }
+  .azure{
+    width: 100px;
+    height: 23.5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .googlecloud{
+    width: 160px;
+    height: 21.3px;
+    
+  }
+  .nginx{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .doc{
+    margin-top:0px;
+  }
+
+/* footer */
+
+.company-name {
+  margin: 150px 0px 30px 0;
+}
+.company-name p{
+  font-size: 25px;
+  margin-left: 30px;
+  width: auto;
+}
+.home{
+  margin: auto;
+}
+
+.tech-stack {
+  margin-bottom: 40px;
+  width: auto;
+   padding-left: 15px;
+   margin-left: auto;
+  
+}
+#stack{
+  width: 100%;
+  max-width: 195px;
+}
+.how-we-work{
+  margin-left: auto;
+  width: auto;
+  padding-left: 15px;
+ 
+}
+#work{
+  width: 100%;
+  max-width: 230px;
+}
+.social-media {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.footer h6 {
+  margin-bottom: 10px;
+}
+.services-footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+.rights-reserved {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.rights-reserved p {
+  font-size: 12px;
+}
+.all-rights{
+  margin-left: 0;
+}
+.footer-border{
+  width: 330px;
+ 
+}
+
+/* lets-collaborate */
+
+  .lets-collaborate-container {
+    margin: 0;
+    padding: 0 0 15px 0;
+  }
+  .lets-collaborate {
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .input-type {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 0;
+  }
+  .input-field {
+    width: 300px;
+    margin: 0px 0 20px 20px;
+    padding: 0;
+  }
+  .input-type .btn-submit {
+    padding: 0;
+    width: 100px;
+    margin-left: 118px;
+  }
+  .email-address p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .ubercore {
+    font-size: 17px;
+    margin-left: 120px;
+  }
+  .or{
+    display: none;
+  }
+  .footer-border{
+    width: 330px;
+  }
+  .tech-stack {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .rights-reserved {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .all-rights{
+    margin-left: 0;
+  }
+  .company-name {
+    margin: 150px 0px 30px 0;
+  }
+  .company-name p{
+    font-size: 25px;
+    margin-left: 30px;
+   
+  }
+/* lets-collaborate */
+
+  .lets-collaborate-container {
+    margin: 0;
+    padding: 0 0 15px 0;
+  }
+  .lets-collaborate {
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .input-type {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .input-field {
+    width: 300px;
+    margin: 0px 0 20px 20px;
+  }
+  .input-type .btn-submit {
+    padding: 0;
+    width: 100px;
+    margin-left: 118px;
+  }
+  .email-address p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .ubercore {
+    font-size: 17px;
+    margin-left: 120px;
+  }
+  .or{
+    display: none;
+  }
+}

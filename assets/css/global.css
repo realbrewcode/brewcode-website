@@ -1,0 +1,149 @@
+html,
+body {
+  font-family: "Work Sans";
+  overflow-x: hidden;
+}
+
+/* global css  */
+.only-desktop {
+  display: unset !important;
+}
+
+/* navbar */
+.header{
+  padding: 0 50px;
+}
+#ubercore-banner {
+  font-family: "Work Sans";
+  margin-bottom: 0;
+}
+.navbar {
+  background-color: #0074e0;
+  font-family: "Work Sans";
+}
+.logo h2{
+  color: #fff;
+  margin-bottom: 0;
+  /* margin-left: 50px; */
+  /* width: 210px; */
+  font-size: 26px;
+  white-space: nowrap;
+    word-break: keep-all;
+  
+}
+
+.logo a {
+ 
+  text-decoration: none;
+}
+.menu a {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Work Sans";
+}
+.menu a:hover {
+  color: #fff;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+
+
+#about-us-header li a{
+  text-align: center;
+}
+.dropdown-menu a {
+  color: #2c4470;
+ 
+  
+}
+.dropdown-menu a:hover {
+  color: #0074e0;
+}
+.nav-link:focus {
+  color: #fff;
+}
+.start-project {
+  width: 180px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: #0074e0;
+  margin: auto;
+  padding: 10px;
+}
+.dropdown-menu a {
+  text-decoration: none;
+}
+.dropdown-menu li {
+  text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .only-desktop {
+        display: none !important;
+      }
+    
+      /* header */
+      .header {
+        flex-direction: column;
+        padding: 0 12px;
+      }
+      .brand-container {
+        width: 100%;
+      }
+      .navbar-toggler-icon i {
+        color: #fff;
+        font-size: 25px;
+        margin: auto;
+       
+      }
+    
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        
+      }
+      
+      .logo{
+        display: flex;
+        width: auto;
+      }
+      .navbar {
+          padding-top: .8rem;
+          padding-bottom: .8rem;
+      }
+      .navigation-container{
+          width: 100%;
+      }
+
+
+      .dropdown-menu{
+          position: relative;
+          display: block;
+          height: 0 !important;
+          overflow: hidden;
+          transform: translateX(-105%) !important;
+          transition: all 0.45s ease;
+          padding: 0 !important;
+          border: none !important;
+          opacity: 0;
+      }
+      .dropdown-menu.show {
+        display: block;
+        transform: translateX(0) !important;
+        height: auto !important;
+        padding:  .5rem 0 !important;
+        opacity: 1;
+    }
+    /* .navbar-collapse{
+        height: calc(100vh - 58px);
+    } */
+}

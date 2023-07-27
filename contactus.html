@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" 
+     rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/contactus.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <title>Contact Us|Ubercore Data Labs Private Limited</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5NFLY5ESLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5NFLY5ESLN');
+</script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="d-flex align-items-center w-100 header">
+                <div class="brand-container">
+                    <div class="logo d-flex justify-content-between">
+                        <a href="/">
+                            <h2 class="ubercore-logo">&#3209; | UBERCORE<sup>&#174;</sup> </h2>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                        </button>
+                      </div>
+                </div>
+
+                <div class="flex-grow-1">
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                        <a class="nav-link" id="home" href="/">Home</a>
+                        <div class="dropdown about">
+                            <a href="#" id="dropdownMenuLink" class="nav-link aboutus" data-bs-toggle="dropdown">
+                            About Us <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="about-us-header" aria-labelledby="dropdownMenuLink">
+                                <li><a href="/about-company.html" class="dropdown-about">About Company</a></li>
+                                <li><a href="./how-we-work.html" class="dropdown-work">How We Work</a></li>  
+                            </ul>
+                        </div>
+
+                        <div class="dropdown nav-services">
+                            <a href="#" role="button" class="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown">
+                            Services <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="services" aria-labelledby="dropdownMenuLink">
+                                <section>
+                                    <div class="container p-0">
+                                        <div class="row m-0">
+                                            <div class="col col-lg-4 col-md-4 col-sm-0" id="start-project">
+                                            <img src="/assets/images/Illustartion.svg" alt="illustration">
+                                            <div class="project-rectangle">
+                                            <a href="/contactus.html"><p class="project">Start your project</p></a>
+                                            </div>
+                                            </div>
+                                            <div class="col col-lg-4 col-md-4 col-sm-6 p-0" id="development">
+                                                <div class="fullstack-development" id="full-stack">
+                                                <img src="/assets/images/fullstack1.svg" alt="">
+                                                <a href="/full-stack-development.html">
+                                                <p>Full Stack Development</p>
+                                                </a>
+                                                
+                                                </div>
+                                                <div class="fullstack-development" id="product-engineering">
+                                                <img src="/assets/images/productEngineer.svg" alt="">
+                                                <a href="/product-engineering.html">
+                                                <p>Product Engineering</p>
+                                                </a>
+                                                
+                                                </div>
+                                                <div class="fullstack-development" id="cyber-security">
+                                                <img src="/assets/images/fullstack1.svg" alt="">
+                                                <a href="/cyber-security.html">
+                                                <p>Cyber Security</p>
+                                                </a>
+                                                
+                                                </div>
+                                                <div class="hide-cyber">
+                                                <div class="fullstack-development cyber-security-hide" id="cyber-security">
+                                                    <img src="/assets/images/fullstack1.svg" alt="">
+                                                    <a href="/cyber-security.html">
+                                                    <p>Cyber Security</p>
+                                                    </a>
+                                                    
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+                                            <div class="col col-lg-4 col-md-4 col-sm-6 p-0" id="web">
+                                                <div class="fullstack-development" id="web-development">
+                                                <img src="/assets/images/web development.svg" alt="">
+                                                <a href="/web-development.html">
+                                                <p>Web Development</p>
+                                                </a>
+                                                
+                                                </div>
+                                                <div class="fullstack-development" id="responsive-ui">
+                                                <img src="/assets/images/Responsive UI Devlopment.svg" alt="">
+                                                <a href="/responsive-ui-development.html">
+                                                <p>Responsive UI Develpoment</p>
+                                                </a>
+                                                </div>
+                                                <div class="data-hidden">
+                                                <div class="fullstack-development ui-hidden" id="responsive-ui">
+                                                    <img src="/assets/images/iot.png" alt="">
+                                                    <a href="/responsive-ui-development.html">
+                                                    <p>Responsive UI Develpoment</p>
+                                                    </a>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </ul>
+                        </div>
+                        <div class="dropdown technology">
+                        <a href="#" role="button" class="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Technologies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" id="front-end" aria-labelledby="dropdownMenuLink">
+                        <li><a href="/lit-development.html">Lit</a></li>
+                        <li><a class="web-tech" href="/react-development.html">React</a></li>
+                        <li><a class="web-tech" href="/angular-development.html">Angular</a></li>
+                        <li><a class="web-tech" href="/node-development.html">Node</a></li>
+                        </ul>
+                        </div>
+                        <a class="nav-link" href="/contactus.html">Contact</a>
+                    </div>
+                </div>
+
+                <div class="only-desktop">
+                    <a class="start-project text-center" href="/contactus.html">Start your Project</a>
+                </div>
+            </div>    
+        </nav>
+    </header>
+    <!-- <header>
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg bg-white  fixed-top">
+             
+              <div class="col-lg-3 col-md-3 text-center">
+                <div class="logo">
+                    <a href="/index.html">
+                    <h2>&#3209; | UBERCORE<sup>&#174;</sup> </h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                    </button>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                  <a class="nav-link" id="home" href="/index.html">Home</a>
+                  <div class="dropdown about">
+                  <a href="#" id="dropdownMenuLink" class="nav-link aboutus" data-bs-toggle="dropdown">
+                  About Us <i class="fas fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" id="about-us-header" aria-labelledby="dropdownMenuLink">
+                  <li><a href="/about-company.html">About Company</a></li>
+                  <li><a href="./how-we-work.html">How We Work</a></li>
+                  
+                  </ul>
+                  </div>
+                  <div class="dropdown nav-services">
+                    <a href="#" role="button" class="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown">
+                    Services <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" id="services" aria-labelledby="dropdownMenuLink">
+                    <section>
+                    <div class="container p-0">
+                    <div class="row m-0">
+                    <div class="col col-lg-4 col-md-4 col-sm-0" id="start-project">
+                    <img src="/assets/images/Illustartion.svg" alt="illustration">
+                    <div class="project-rectangle">
+                    <a href="/contactus.html"><p class="project">Start your project</p></a>
+                    </div>
+                    </div>
+                    <div class="col col-lg-4 col-md-4 col-sm-6 p-0" id="development">
+                    <div class="fullstack-development" id="full-stack">
+                    <img src="/assets/images/fullstack1.svg" alt="">
+                    <a href="/full-stack-development.html">
+                    <p>Full Stack Development</p>
+                    </a>
+                    
+                    </div>
+                    <div class="fullstack-development" id="product-engineering">
+                    <img src="/assets/images/productEngineer.svg" alt="">
+                    <a href="/product-engineering.html">
+                    <p>Product Engineering</p>
+                    </a>
+                    
+                    </div>
+                    <div class="fullstack-development" id="cyber-security">
+                    <img src="/assets/images/fullstack1.svg" alt="">
+                    <a href="/cyber-security.html">
+                    <p>Cyber Security</p>
+                    </a>
+                    
+                    </div>
+                    <div class="hide-cyber">
+                      <div class="fullstack-development cyber-security-hide" id="cyber-security">
+                          <img src="/assets/images/fullstack1.svg" alt="">
+                          <a href="/cyber-security.html">
+                          <p>Cyber Security</p>
+                          </a>
+                          
+                          </div>
+                    </div>
+                    
+                    </div>
+                    <div class="col col-lg-4 col-md-4 col-sm-6 p-0" id="web">
+                    <div class="fullstack-development" id="web-development">
+                    <img src="/assets/images/web development.svg" alt="">
+                    <a href="/web-development.html">
+                    <p>Web Development</p>
+                    </a>
+                    
+                    </div>
+                    <div class="fullstack-development" id="responsive-ui">
+                    <img src="/assets/images/Responsive UI Devlopment.svg" alt="">
+                    <a href="/responsive-ui-development.html">
+                    <p>Responsive UI Develpoment</p>
+                    </a>
+                    </div>
+                    <div class="data-hidden">
+                      <div class="fullstack-development ui-hidden" id="responsive-ui">
+                          <img src="/assets/images/iot.png" alt="">
+                          <a href="/responsive-ui-development.html">
+                          <p>Responsive UI Develpoment</p>
+                          </a>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+                    </ul>
+                    </div>
+                  <div class="dropdown technology">
+                  <a href="#" role="button" class="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technologies <i class="fas fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" id="front-end" aria-labelledby="dropdownMenuLink">
+                  <li><a href="/lit-development.html">Lit</a></li>
+                  <li><a class="web-tech" href="/react-development.html">React</a></li>
+                  <li><a class="web-tech" href="/angular-development.html">Angular</a></li>
+                  <li><a class="web-tech" href="/node-development.html">Node</a></li>
+                  </ul>
+                  </div>
+                  <a class="nav-link" href="/contactus.html">Contact</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-3 text-center">
+              
+                <div class="rectangle-30">
+                  <a class="nav-link"
+                  href="/contactus.html"><div class="start-project text-center">Start your Project</div></a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header> -->
+    <section>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col lg-1 md-1 sm-1 contact-banner">
+                        <p class="contact-head">We can help you turn your idea into reality</p>
+                        <img src="assets/images/Banner Ilustration_about.png" alt="">    
+               
+                </div>
+            </div>
+        </div>
+               
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 card-transform">
+                    <div class="card contact-card">
+                        <div class="card-head"><p>Contact your Ubercore representative for more details. we can help you</p></div>
+                        <div class="cardemail">
+                            <a href="mailto:hello@ubercore.in" class="card-email"><p>hello@ubercore.in </p><hr class="email-border"></a>
+                        </div>
+                        <div>
+                            <p class="card-or">{OR}</p>
+                        </div>
+                        <div class="card-contactus"> <p>Complete the form to contact us.</p></div> 
+                        <div class="inputcontact">
+                            <form action="https://ubercore.herokuapp.com/contactus" method="POST" name="Form" id="form-table" class="container table-contact" onsubmit="return validateForm()" >
+                                <div class="row">
+                                  <div class="col-md-4 col-sm-12"><label for="firstname" class="first-name">First Name<span class="star">*</span></label></div>
+                                  <div class="col-md-4 col-sm-12"><label for="lastname" class=" last-name">Last Name<span class="star">*</span></label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-12"><input required  type="text"  name="firstname" class="contact-text txtNumeric"  id="firstname">
+                                        <div class="error" id="nameErr"></div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12"><input required type="text" name="lastname" class="contact-text txtNumeric"  id="lastname" >
+                                        <div class="error" id="nameErr"></div>
+                                    </div>
+                                </div>
+                                  <div class="row">
+                                    <div class="col-md-4 col-sm-12"><label for="email" class="email">Email<span class="star">*</span></label></div>
+                                    <div class="col-md-4 col-sm-12"><label for="phonenumber " class="phone-number">Phone Number<span class="star">*</span></label></div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-md-4 col-sm-12"><input required type="email"  name="email" class="contact-text"  id="email"></div>
+                                      <div class="col-md-4 col-sm-12"><input required type="text" name="phonenumber" class="contact-text "  id="phonenumber"  pattern="[1-9]{1}[0-9]{9}" maxlength="10" ></div>
+                                    </div>
+                                  <div class="row">
+                                    <div class="col-md-6 col-sm-12"><label for="message" class=" message-label">Message</label></div>
+                                    <div class="col-md-6 col-sm-12"></div><input required type="text" class="message contact-text"  id="message" name="message">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-12"></div><button type="submit" class="btn btn-primary send"  id="submitForm">Send</button> </div>
+                                </div> 
+                        </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    </section>
+    <section>
+        <div class="container-fluid p-0 ubercore-representative-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col lg-1 md-1 sm-1">
+                        <div class="ubercore-representative"><p> Contact your Ubercore representative for more details. We can help you</p></div>
+                    </div>
+                </div>
+            </div>
+          <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <table class="contact-table"> 
+                                <tr>
+                                    <th colspan="2" class="contact-th  india">India</th>
+                                    <th class="contact-th new-zealand">New Zealand</th>
+                                </tr>
+                                <tr>
+                                <td class="contact-td ">
+                                    <div class="bidar">Bidar</div>
+                                    <div class=" bidar-number">+91 9108420001</div>
+                                </td>
+                                <td class="contact-td ">
+                                    <div class="bidar " id="bengaluru">Hyderabad</div>
+                                    <div class=" bidar-number" id="bengaluru"> +91 9108420001</div>
+                                </td>
+                                <td class="contact-td borderwellington">
+                                    <div class="bidar wellington">Wellington</div>
+                                    <div class=" wellington bidar-number">+64 21 109 8829</div>
+                                </td>
+                                
+                                </tr>
+                                <tr>
+                                <td class="contact-td sirsi">
+                                    <div class="bidar">Sirsi</div>
+                                    <div class=" bidar-number">+91 8880490015</div>        
+                                </td>
+                                <td  class="contact-td sirsi ">
+                                    <div class="bidar " id="bengaluru">Bengaluru</div>
+                                    <div class="bidar-number" id="bengaluru">+91 9108420004</div>
+                                </td>
+                                <td class="contact-td sirsi">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>   
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-2 col-sm-12 p-0">
+                    <div class="company-name">
+                       <a href="/"><h3>&#3209; | UBERCORE<sup>&#174;</sup></h3></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-sm-12 p-0">
+                    <div class="services-footer">
+
+                        <ul>
+                            <li>
+                                <h5>Services</h5>
+                            </li>
+                            <li><a href="/full-stack-development.html"><h6>Full Stack Development</h6> </a></li>
+                            <li><a href="/product-engineering.html"><h6>Product Engineering</h6> </a></li>
+                            <li><a href="/cyber-security.html"><h6>Cyber Security</h6> </a></li>
+                            <li><a href="/web-development.html"><h6>Web Development</h6></a> </li>
+                            <li><a href="/responsive-ui-development.html"><h6>Responsive UI Develpoment</h6> </a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 p-0" id="stack">
+                    <div class="tech-stack">
+
+                        <ul>
+                            <li>
+                                <h5>Technologies</h5>
+                            </li>
+                            <li><a href="/lit-development.html"><h6>Lit</h6></a></li>
+                            <li><a href="/react-development.html"><h6>React</h6></a> </li>
+                            <li><a href="/angular-development.html"><h6>Angular</h6></a> </li>
+                            <li><a href="/node-development.html"><h6>Node</h6></a> </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-sm-12 p-0 terms">
+                    <div class="legal">
+                        <ul>
+                            <li>
+                                <h5>Legal</h5>
+                            </li>
+                            <li><a href="/terms.html"><h6>Terms</h6></a></li>
+                                <li><a href="/trademarks.html"><h6>Trademarks</h6></a></li>
+                                <li><a href="/privacy.html"><h6>Privacy</h6></a></li>
+                                <li><a href="/cookies.html"><h6>Cookie Policy</h6></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 p-0" id="work">
+                    <div class="home how-we-work">
+                        <ul>
+                            <li>
+                                <h5 >About Us</h5>
+                            </li>
+                            <li><a href="/about-company.html"><h6>About Company</h6> </a></li>
+                            <li><a href="/how-we-work.html"><h6>How We Work</h6></a></li>
+                            <li><a href="/contactus.html"><h6>Contact Us</h6></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 p-0" >
+                    <div class="social-media">
+                        <ul>
+                            <li>
+                                <h5>Connect With Us</h5>
+                            </li>
+                            <li>
+                                <div class="social-img">
+                                    <a href="https://www.facebook.com/UbercoreIndia" target="_blank"><img class="facebook" src="/assets/images/fb.svg"
+                                            alt="facebook"></a>
+                                    <a href="https://www.instagram.com/ubercoreindia" target="_blank"><img class="instagram" src="/assets/images/insta.svg"
+                                            alt="instagram"></a>
+                                    <a href="https://twitter.com/ubercoreindia" target="_blank"><img class="twitter" src="/assets/images/twit.svg" alt="twitter"></a>
+                                    <a href="https://www.linkedin.com/company/ubercore-data-labs/mycompany/" target="_blank"><img class="linkedin" src="/assets/images/linkedin (3).png" alt="linkedin" ></a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 all-rights">
+                    <div class="footer-border"></div>
+                    <div class="rights-reserved">
+                        <p><span>&#169;</span>2021 Ubercore Data Labs Private Limited. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+    
+<script src="/assets/js/contactus.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script>
+    $(document).ready(function () {
+    $("#form-table").submit(function (event) {
+        var formData = {
+        firstname: $("#firstname").val(),
+        lastname: $("#lastname").val(),
+        email: $("#email").val(),
+        phonenumber:$("#phonenumber").val(),
+        message: $("#message").val(),
+        
+        };
+    $.ajax({
+        type: "POST",
+        url: "https://ubercore.herokuapp.com/contactus",
+        data: formData,
+        dataType: "json",
+        encode: true,
+        }).done(function (data) {
+        console.log(data);
+        });
+     
+        event.preventDefault();
+        $("#form-table").trigger("reset");
+       
+    });
+    $('.txtNumeric').keydown(function (e) {
+  
+  if ( e.ctrlKey || e.altKey) {
+  
+    e.preventDefault();
+    
+  } else {
+  
+    var key = e.keyCode;
+    
+    if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90)||(key ==9))) {
+    
+      e.preventDefault();
+      
+    }
+
+  }
+  
+});
+    });
+
+
+    function validateForm() {
+    // Retrieving the values of form elements 
+    var name = document.contactForm.name.value;
+   
+    
+	// Defining error variables with a default value
+    var nameErr = true;
+    
+    // Validate name
+    if(name == "") {
+        printError("nameErr", "Please enter your name");
+    } else {
+        var regex = /^[a-zA-Z\s]+$/;                
+        if(regex.test(name) === false) {
+            printError("nameErr", "Please enter a valid name");
+        } else {
+            printError("nameErr", "");
+            nameErr = false;
+        }
+    }
+    
+   
+};
+
+    $("inputs").keyup(function () {
+        if (this.value.length == this.maxLength) {
+          $(this).next('.inputs').focus();
+        }
+  });
+   
+   </script>
+    
+</body>
+</html>

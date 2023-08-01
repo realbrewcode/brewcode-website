@@ -627,7 +627,7 @@
   }
 }
 
-/* Ubercore Representative */
+/* Brewcode Representative */
 
 .ubercore-representative-container {
   height: 330px;
@@ -653,7 +653,7 @@
   width: 800px;
 }
 
-.contact-td {
+/* .contact-td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 0;
@@ -666,9 +666,9 @@
   padding: 8px;
   border-left: none;
   border-right: none;
-}
+} */
 .india {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -676,11 +676,13 @@
   letter-spacing: normal;
   text-align: left;
   color: #2c4470;
-  border-right: 1px solid rgba(44, 68, 112, 0.3);
+  justify-content: center;
+  /* border-right: 1px solid rgba(44, 68, 112, 0.3); */
   
 }
+
 .bidar {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
